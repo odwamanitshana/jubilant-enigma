@@ -1,0 +1,21 @@
+CREATE TABLE wardrobe_items (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    web_scraper_start_url TEXT,
+    products_href TEXT,
+    image_url_src TEXT,
+    product_name VARCHAR(255),
+    main_category VARCHAR(100),
+    color VARCHAR(50),
+    occasion VARCHAR(50),
+    season VARCHAR(50),
+    price_pkr INT,
+    discount VARCHAR(20),
+    work_details TEXT,
+    shoe_color VARCHAR(50),
+    shoe_style VARCHAR(50),
+    gender VARCHAR(10),
+    fit_type VARCHAR(50),
+    categorize_outfit VARCHAR(100),
+    category_style VARCHAR(100),
+    fabric VARCHAR(50)
+);
